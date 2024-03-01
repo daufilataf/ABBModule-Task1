@@ -1,3 +1,7 @@
+
+// Author: Fuad Fataliyev
+// Task: ABB-Tech-Module 1
+// Date: 01.03.2024 
 import java.util.ArrayList;
 import java.util.List;
 import java.io.*;
