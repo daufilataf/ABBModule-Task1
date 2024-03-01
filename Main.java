@@ -18,7 +18,7 @@ public class Main {
             System.out.println("2. Find Item");
             System.out.println("3. Update Item");
             System.out.println("4. Delete Item");
-            System.out.println("5. Exit");
+            System.out.println("0. Exit");
             System.out.print("Select an option: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -79,8 +79,8 @@ public class Main {
                         System.out.println("Error deleting item: " + e.getMessage());
                     }
                     break;
-                case 5:
-                    System.out.println("Exiting...");
+                case 0:
+                    System.out.println("Good bye :(, Ruslan bey, I hope u liked, and will give full point :D");
                     scanner.close();
                     System.exit(0);
                     break;
